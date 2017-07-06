@@ -1,0 +1,46 @@
+html { 
+  box-sizing: border-box; 
+} 
+
+*, *:before, *:after { 
+  box-sizing: inherit; 
+}
+
+* {
+    border: 1px solid purple;
+}
+
+.row {
+    width: 100%;
+    clear: both;
+}
+
+.col-full {
+    float: left;
+    width: 100%;
+}
+
+.col-threefourth {
+    float: left;
+    width: 75%;
+}
+
+.col-twothirds {
+    float: left;
+    width: 66%;
+}
+
+.col-half {
+    float: left;
+    width: 50%;
+}
+
+.col-onethird {
+    float: left;
+    width: 33%;
+}
+
+.col-fourth {
+    float: left;
+    width: 25%;
+}
