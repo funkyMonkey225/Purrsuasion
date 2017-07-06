@@ -6,6 +6,40 @@ html {
   box-sizing: inherit; 
 }
 
-* {
-    border: 1px solid purple;
+.center-align {
+    text-align: center;
+}
+
+.main-header {
+    font-family: medium-content-sans-serif-font, "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+    color: rgba(0,0,0,.8);
+    font-size: 40px;
+}
+
+.sub-header {
+    font-family: medium-content-sans-serif-font, "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+    color: rgba(0,0,0,.44);
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.small-header {
+    font-family: medium-content-sans-serif-font, "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+    color: rgba(0,0,0,.8);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.small-subheader {
+    font-family: medium-content-sans-serif-font, "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+    color: rgba(0,0,0,.44);
+    font-size: 15px;
+    font-weight: lighter;
+}
+.circle-image {
+    display: inline-block;
+    vertical-align: middle;
+    float: left;
+    margin: 15px; 
+    border-radius: 100%;
 }
