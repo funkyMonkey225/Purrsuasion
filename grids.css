@@ -6,9 +6,9 @@ html {
   box-sizing: inherit; 
 }
 
-* {
+/** {
     border: 1px solid purple;
-}
+}*/
 
 .row {
     width: 100%;
